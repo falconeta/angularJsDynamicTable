@@ -3,7 +3,6 @@
   "description": "",
   "main": [
     "dist/tableController.js",
-    "src/table.css",
     "dist/templateCacheHtml.js"
   ],
   "authors": [

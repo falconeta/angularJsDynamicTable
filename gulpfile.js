@@ -21,7 +21,7 @@ gulp.registry(hub);
 
 gulp.task('inject', gulp.series(gulp.parallel('styles', 'scripts'), 'inject'));
 gulp.task('build', gulp.series('partials', gulp.parallel('inject', 'other'), 'build'));
-gulp.task('buildLibrary', gulp.series('partialsLibrary', 'buildLibrary'));
+gulp.task('buildLibrary', gulp.series('inlineCss', 'partialsLibrary', 'buildLibrary'));
 gulp.task('test', gulp.series('scripts', 'karma:single-run'));
 gulp.task('test:auto', gulp.series('watch', 'karma:auto-run'));
 gulp.task('serve', gulp.series('inject', 'watch', 'browsersync'));
