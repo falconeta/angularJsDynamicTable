@@ -1,7 +1,7 @@
 {
   "name": "angularjsdynamictable",
   "description": "",
-  "main": "dist/angularJsDynamicTable",
+  "main": "dist/angularJsDynamicTable.js",
   "authors": [
     "vittorio lo preiato"
   ],
