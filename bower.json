@@ -1,5 +1,6 @@
 {
-  "name": "angularjsdynamictable",
+  "name": "angularJsDynamicTable",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/angularJsDynamicTable.js",
   "authors": [
