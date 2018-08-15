@@ -1,0 +1,22 @@
+{
+  "name": "angularjsdynamictable",
+  "description": "",
+  "main": ["src/tableController.js",
+  " table.css"],
+  "authors": [
+    "vittorio lo preiato"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6",
+    "lodash": "^4.17.10"
+  }
+}

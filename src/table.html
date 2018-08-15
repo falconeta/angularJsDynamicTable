@@ -1,0 +1,20 @@
+<div class="table-container">
+  <div class="table" ng-hide="tableC.errorTable || tableC.errorBrand">
+      <div class="thead">
+          <div class="tr" >
+              <div ng-repeat="item in tableC.tableData.thLabel"  ng-style="{width: tableC.widthTableCell[$index] + '%'}" class="th">
+                  <span>{{item}}</span>
+              </div>
+          </div>
+      </div>
+      <div class="wrap" ng-class="{'wrap-report': tableC.report}">
+          <div class="tbody">
+              <div class="tr" ng-repeat="row in tableC.tableData.tdData">
+                  <div ng-repeat="item in row track by $index" ng-style="{width: tableC.widthTableCell[$index] + '%'}" class="td">
+                      <p>{{item}}</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
