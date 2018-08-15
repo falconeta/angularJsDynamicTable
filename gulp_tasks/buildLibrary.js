@@ -9,7 +9,7 @@ gulp.task('partialsLibrary', partialsLibrary)
 
 
 function build() {
-    return gulp.src(conf.path.src('/table.html'))
+    return gulp.src(conf.path.src('tableController.js'))
     .pipe(gulp.dest(conf.path.dist()));
 }
 
@@ -17,9 +17,9 @@ function partialsLibrary() {
     return gulp.src(conf.path.src('**/*.html'))
       .pipe(htmlmin(conf.htmlmin))
       .pipe(angularTemplatecache('templateCacheHtml.js', {
-        module: conf.ngModule,
-        root: 'app'
+        module: 'angularTable',
+        root: ''
       }))
-      .pipe(gulp.dest(conf.path.tmp()));
+      .pipe(gulp.dest(conf.path.dist()));
   }
   

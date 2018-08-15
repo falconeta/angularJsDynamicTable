@@ -1,13 +1,15 @@
 {
   "name": "angularjsdynamictable",
   "description": "",
-  "main": ["src/tableController.js",
-  " table.css"],
+  "main": [
+    "dist/tableController.js",
+    "src/table.css",
+    "dist/templateCacheHtml.js"
+  ],
   "authors": [
     "vittorio lo preiato"
   ],
   "license": "ISC",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -5,7 +5,7 @@ function table() {
     bindings: {
       tableData: '<'
     },
-    templateUrl: 'app/components/tableComponent/table.html',
+    templateUrl: 'table.html',
     controllerAs: 'tableC',
     controller: tableController
   };
