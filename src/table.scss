@@ -47,16 +47,7 @@
       max-height: 53vh;
       overflow-y: overlay;
       -webkit-overflow-scrolling: touch;
-       //border: 1px solid black;
       .tbody {
-        .tr:last-child {
-          .td {
-            //border-bottom: none;
-          }
-        }
-        .td:first-child {
-          //border-left: none;
-        }
         .td {
           position: relative;
           align-items: center;
