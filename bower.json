@@ -1,10 +1,7 @@
 {
   "name": "angularjsdynamictable",
   "description": "",
-  "main": [
-    "dist/tableController.js",
-    "dist/templateCacheHtml.js"
-  ],
+  "main": "dist/angularJsDynamicTable",
   "authors": [
     "vittorio lo preiato"
   ],
