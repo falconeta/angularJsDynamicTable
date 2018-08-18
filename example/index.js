@@ -1,2 +1,2 @@
 angular
-  .module('app', ['angularTable']);
+  .module('app', []);

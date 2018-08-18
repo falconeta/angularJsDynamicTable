@@ -36,15 +36,15 @@ function reloadBrowserSync(cb) {
 
 function watch(done) {
   gulp.watch([
-    conf.path.src('index.html'),
+    conf.path.example('index.html'),
     'bower.json'
   ], gulp.parallel('inject'));
-  gulp.watch(conf.path.src('**/*.scss'), gulp.series('sass'));
+  gulp.watch(conf.path.example('**/*.scss'), gulp.series('sass'));
 
-  gulp.watch(conf.path.src('app/**/*.html'), gulp.series('partials', reloadBrowserSync));
+  gulp.watch(conf.path.example('app/**/*.html'), gulp.series('partials', reloadBrowserSync));
   gulp.watch([
-    conf.path.src('**/*.css')
+    conf.path.example('**/*.css')
   ], gulp.series('styles'));
-  gulp.watch(conf.path.src('**/*.js'), gulp.series('inject'));
+  gulp.watch(conf.path.example('**/*.js'), gulp.series('inject'));
   done();
 }
