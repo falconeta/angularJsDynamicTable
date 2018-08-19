@@ -1,8 +1,8 @@
 {
-  "name": "angularjsdynamictable",
-  "version": "1.0.0",
+  "name": "angularjs-x-dynamic-table",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/lib/angularJsDynamicTable.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

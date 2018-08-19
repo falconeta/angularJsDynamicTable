@@ -10,10 +10,10 @@ hello.$inject = ['$scope'];
 
 function hello($scope) {
   $scope.data = {
-    thLabel: ['nome', 'cognome', 'supercalifragilestichespiralitoso'],
+    thLabel: ['nome', 'cognome', 'supercalifragilestichespiralitoso', 'J', 'tesoro'],
     tdData: [
-      ['vittorio', 'lo preiato', 1],
-      ['lucia', 'cenacchi', 3]
+      ['vittorio', 'lo preiato', 1, 'sette', ''],
+      ['lucia', 'cenacchi', 3, '', 'otto']
     ]
   };
 }

@@ -45,5 +45,5 @@ function build() {
     .pipe(htmlFilter)
     .pipe(htmlmin())
     .pipe(htmlFilter.restore)
-    .pipe(gulp.dest(conf.path.dist()));
+    .pipe(gulp.dest(conf.path.dist('/example')));
 }
